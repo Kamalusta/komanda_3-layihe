@@ -279,45 +279,29 @@ footer{
 .img1{
     width: 7.98vw;
 }
-.first :first-child{
+.icons :first-child{
     width: 2.29vw;
     margin-right: 1.25vw;
-    /* position: relative;
-    top: 6.8vw;
-    left: 8.47vw; */
 }
-.first :nth-child(2){
+.icons :nth-child(2){
     width: 2.22vw;
     margin-right: 1.25vw;
-    /* position: relative;
-    top: 6.8vw;
-    left: 8.47vw; */
 }
-.first :nth-child(3){
+.icons :nth-child(3){
     width: 2.43vw;
     margin-right: 1.25vw;
-    /* position: relative;
-    top: 6.8vw;
-    left: 8.47vw; */
 }
-.first :last-child{
+.icons :last-child{
     width: 2.36vw;
     margin-right: 1.25vw;
-    /* position: relative;
-    top: 6.8vw;
-    left: 8.47vw; */
 }
-.second :first-child{
+.right :first-child{
     width: 1.87vw;
     margin-right: 1.52vw;
-    /* position: relative;
-    top: 3.75vw;
-    left: 67.77%; */
 }
-.second :nth-child(4){
+.right :nth-child(4){
     margin-right: 1.52vw;
     width: 1.87vw;
-    /* position: relative; */
 }
 footer span{
     font-size: 1.73vw;
@@ -331,4 +315,7 @@ footer p{
     margin-bottom: 1.59vw;
     font-size: 1.25vw;
 } 
+.logo{
+    margin-bottom: 1.94vw;
+}
 
