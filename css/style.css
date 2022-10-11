@@ -267,14 +267,18 @@ h4{
     margin-right: 4.86vw;
 }
 footer{
-    padding-left: 8.47vw;
-    padding-top: 3.47vw;
-    padding-right: 10.13vw;
     background-color: black;
-    height: 27.08vw;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    margin: 0vw 12.29vw 0vw 8.47vw;
+    padding-top: 3.47vw;
     display: flex;
     justify-content: space-between;
+    height: 27.08vw;
+    box-sizing: border-box;
 }
 .img1{
     width: 7.98vw;
@@ -304,7 +308,9 @@ footer{
     width: 1.87vw;
 }
 footer span{
+    display: inline-block;
     font-size: 1.73vw;
+    margin-bottom: 1.04vw;
 }
 .left{
     display: flex;
@@ -312,7 +318,7 @@ footer span{
     justify-content: space-between;
 }
 footer p{
-    margin-bottom: 1.59vw;
+    margin-bottom: 3.12vw;
     font-size: 1.25vw;
 } 
 .logo{
