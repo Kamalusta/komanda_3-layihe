@@ -8,13 +8,20 @@ header{
 }
 header img{
     width: 7.77vw;
+    
 }
 .blok_1{
     margin-left: 8.4vw;
-    margin-top: 6.94vw;
+    margin-top: 6.3vw;
+}
+.info{
+    width: 33.6vw;
+    display: flex;
+    justify-content: space-between;
 }
 .info img{
     width: 1.52vw;
+    margin-right: 0.69vw;
 }
 .info span{
     font-size: 1.38vw;
@@ -25,8 +32,8 @@ h1{
     width: 43.61vw;
     font-family: 'Roboto Slab', serif;
     line-height: 101.38%;
-    margin-top: 2.98vw;
-    margin-bottom: 1.66vw;
+    margin-top: 2.7vw;
+    margin-bottom: 1.2vw;
 }
 h2{
     font-size: 3.81vw;
@@ -37,11 +44,13 @@ h2{
     font-family: 'Roboto', sans-serif;
     width: 28.71vw;
     line-height: 150%;
+    margin: 0px;
+    margin-bottom: 10vw;
 }
 .text-img{
     display: flex;
     justify-content:space-between;
-    align-items:flex-start;
+    align-items:center;
 }
 .img_1{
     display: flex;
@@ -71,6 +80,7 @@ h2{
     padding-right: 1.87vw;
     justify-items: center;
     margin-left: 20.02vw;
+    margin-top: 2.6vw;
 }
 .blue-fon :first-child{
     font-family: 'Roboto Slab', serif;
@@ -102,12 +112,19 @@ h2{
 .text-img-2{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.kurs{
+    margin-top: 11.3vw;
+    margin-bottom: 1.5vw;
 }
 .text_2{
-    width: 45.97vw;
+    width: 45.9vw;
     line-height: 150%;
     font-size: 1.66vw;
     font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 2vw;
 }
 .img_3{
     display: flex;
@@ -129,6 +146,11 @@ h2{
     flex-direction: row;
     justify-content:flex-start;
     align-items:center;
+    margin-top: 1.5vw;
+}
+.format{
+    margin-top: 9.5vw;
+    margin-bottom: 7.5vw;
 }
 .table{
     font-family: 'Roboto', sans-serif;
@@ -149,7 +171,7 @@ h4{
     width:10.41vw ;
 }
 .tb2{
-    width: 67.63vw;
+    width: 69vw;
 }
 .tb2 div{
     width: 18.75vw;
@@ -157,44 +179,62 @@ h4{
 .tb2 h4{
     color: #1E4681;
 }
+.cto{
+    margin-top: 13.7vw;
+    margin-bottom: 3.6vw;
+}
 .list{
     font-family: 'Roboto', sans-serif;
-    width: 47.97vw;
+    width: 47vw;
     font-size: 1.66vw;
     line-height: 150%;   
 }
 .list ul{
-    padding: 0px;
-    list-style-position:inside;
+    padding-left: 1.38vw;
+}
+.program{
+    margin-top: 15.2vw;
+    margin-bottom: 8.4vw;
 }
 .images{
     display: flex;
     flex-wrap: wrap;
     margin-left: -2.56vw;
+    margin-bottom: 6vw;
 }
-.images div{
+.images .card_1{
     width: 27.7vw;
+    height: 22.77vw;
     border-radius: 2.08vw;
     font-family: 'Roboto', sans-serif;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     margin-right: 2.56vw;
     margin-bottom: 2.84vw;
 }
-.images img{
-    width: 27.7vw;
+.card-text{
+    height: 11.66vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .images h3{
     font-size: 2.08vw;
     margin-left: 1.38vw;
+    margin-top: 0.76vw;
+    margin-bottom: 0px;
 }
 .images p{
     font-size: 1.73vw;
     margin-left: 1.31vw;
+    margin-bottom: 1.59vw;
+    margin-top: 0px;
+    align-items: flex-end;
 }
 .blok_2{
     background-color:  #EFEFEF;
     height: 54.16vw;
-    padding-top: 6.31vw;
+    padding-top: 5.8vw;
+    box-sizing: border-box;
 }
 .card{
     background-color:  #FFFFFF;
@@ -203,12 +243,13 @@ h4{
     margin-left: 8.75vw;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 2.08vw;
+    margin-top: 4.44vw;
 }
 .photo{
     display: flex;
 }
 .card p{
-    padding: 2.77vw 3.12vw 0.69vw;
+    padding: 2.77vw 3.3vw 0.69vw;
     line-height: 150%;
     font-size: 1.38vw;
     font-family: 'Roboto', sans-serif;
@@ -235,11 +276,12 @@ h4{
     display: flex;
     flex-direction: column;
     padding-left: 8.47vw;
-    padding-top: 12.43vw;
+    padding-top: 11.9vw;
     box-sizing: border-box;
 }
 .blok_3 h2{
     margin-top: 0px;
+    margin-bottom: 3.75vw;
 }
 .blok_3 p,.table_2,span{
     font-family: 'Roboto', sans-serif;
@@ -250,6 +292,7 @@ h4{
 .blok_3 p:nth-child(3){
     font-size: 5.55vw;
     margin-top: 0px;
+    margin-bottom: 4vw;
 }
 .table_2{
     display: flex;
@@ -258,10 +301,13 @@ h4{
     width: 20.41vw;
     font-weight: 400;
     font-size: 1.73vw;
+    margin: 0px;
 }
 .table_2 p{
     width: 20.41vw;
-    font-size: 1.25vw ;
+    font-size: 1.25vw;
+    margin-top: 0.97vw;
+    line-height: 101.38%;
 }
 .table_2 div:first-child{
     margin-right: 4.86vw;
@@ -322,6 +368,6 @@ footer p{
     font-size: 1.25vw;
 } 
 .logo{
-    margin-bottom: 1.94vw;
+    margin-bottom: 1.8vw;
 }
 
