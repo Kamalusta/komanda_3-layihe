@@ -159,6 +159,13 @@ h2{
     justify-content: space-between;
     line-height: 130%;
 }
+.table_1{
+    font-family: 'Roboto', sans-serif;
+    width: 44.3vw;
+    display: flex;
+    justify-content: space-between;
+    line-height: 130%;
+}
 h4{
     font-size: 1.73vw;
     margin: 1vw 0px;
@@ -171,13 +178,18 @@ h4{
 .table div{
     width:10.41vw ;
 }
-.tb2{
+.table_1 p{
+    font-size: 1.25vw;
+    margin-top: 0px;
+    line-height: 130%;
+}
+.table_1{
     width: 69.5vw;
 }
-.tb2 div{
+.table_1 div{
     width: 18.75vw;
 }
-.tb2 h4{
+.table_1 h4{
     color: #1E4681;
 }
 .cto{
@@ -201,7 +213,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     margin-left: -2.56vw;
-    margin-bottom: 6vw;
+    margin-bottom: 5.5vw;
 }
 .images .card_1{
     width: 27.7vw;
@@ -210,7 +222,7 @@ h4{
     font-family: 'Roboto', sans-serif;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     margin-right: 2.56vw;
-    margin-bottom: 2.84vw;
+    margin-bottom: 2.97vw;
 }
 .images img{
     width: 27.7vw;
@@ -285,7 +297,7 @@ h4{
     display: flex;
     flex-direction: column;
     padding-left: 8.47vw;
-    padding-top: 11.73vw;
+    padding-top: 11.79vw;
     box-sizing: border-box;
 }
 .blok_3 h2{
@@ -381,23 +393,176 @@ footer p{
 }
 }
 @media(min-width:834px) and (max-width:1279px){
+    header{
+        margin-top: 22px;
+    }
+    .blok_1{
+        margin-top: 6.2vw;
+    }
     h1{
         margin-top: 1.3vw;
-        margin-bottom: 2.3vw;
-    }
+        margin-bottom: 2.3vw;}
     .text_2{
-        width: 45vw;
-    }
+        width: 45vw;}
     .table{
-        margin-top: 1vw;
-    }
+        margin-top: 1vw;}
     .table h4{
         margin-top: 0px;
-        margin-bottom: 0.5vw;
-    }
+        margin-bottom: 0.5vw;}
     .format{
-        margin-bottom: 8.1vw;
-    }
+        margin-bottom: 8.1vw;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .cto{
         margin-top: 13vw;
     }
