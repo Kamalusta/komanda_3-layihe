@@ -409,7 +409,141 @@ footer p{
         font-size: 1.43vw;
     }
     .blok_2{
-       // height: 54.16vw;
         padding-top: 5.5vw;
     }
+}
+
+@media (min-width:320px) and (max-width:834px){
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6.12vw;
+        align-items: center;
+    }
+    .images .card_1{
+        width: 49.5vw;
+        height: 40.65vw;
+        border-radius: 3.72vw;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+        margin-right: 2.56vw;
+        margin-bottom: 6.425vw;
+    }
+    .images img{
+        width: 49.5vw;
+    }
+    .card-text{
+        height: 20.82vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .images h3{
+        font-size: 3.72vw;
+        margin-left: 2.48vw;
+        margin-top:0vw;
+    }
+    .images p{
+        font-size: 3.19vw;
+        margin-left: 2.35vw;
+        margin-top: -30px;
+        line-height: 130%;
+    }
+    .blok_2{
+        background-color:  #EFEFEF;
+        height: 112.5vw;
+        padding: 9.31vw;
+        box-sizing: border-box;
+        width: 100vw;
+    }
+    .card{
+        background-color:  #FFFFFF;
+        width: 81.91vw;
+        height: 65.96vw;
+        /* margin-left: 8.75vw; */
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 3.72vw;
+        margin-top: 7vw;
+    }
+    .photo{
+        display: flex;
+    }
+    .card p{
+        padding: 4.79vw 5.59vw 0.69vw;
+        line-height: 150%;
+        font-size: 2.66vw;
+        font-family: 'Roboto', sans-serif;
+    }
+    .blok_2 h2{
+        margin-bottom: 5vw;
+        font-size:6.91vw ;
+        font-family: 'Roboto Slab';
+        line-height: 101.38%;
+        margin-top: 2.3vw;
+    }
+    .blok_2 h3{
+       font-size: 3.72vw;
+       font-family: 'Roboto Slab', serif;
+    }
+    .photo img:first-child{
+        width: 25vw;
+        margin-left: 4.1vw;
+        margin-right: 1.5vw;
+    }
+    .photo img:last-child{
+        width: 4.33vw;
+        height: 4.68vw;
+        margin-top: 1vw;
+    }
+
+.blok_3{
+    background-color: #9DC9C8;
+    height: 96.66vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8.47vw;
+    padding-top: 16.5vw;
+    box-sizing: border-box;
+}
+.blok_3 h2{
+    margin-top: 0px;
+    margin-bottom: 9vw;
+    font-family: 'Roboto Slab';
+    font-size: 6.91vw;
+    width: 59.57vw;
+    line-height: 101.38%;
+}
+.blok_3 p,.table_2,span{
+    font-family: 'Roboto', sans-serif;
+}
+.blok_3 span{
+    font-size: 3.19vw;
+    margin-top: -0.6vw;
+}
+.blok_3 p:nth-child(3){
+    font-size: 9.84vw;
+    margin-top: 0.11vw;
+    margin-bottom: 5vw;
+    line-height: 101.38%;
+}
+.table_2{
+    display: flex;
+}
+.table_2 h4{
+    width: 33vw;
+    font-weight: 400;
+    font-size: 3.19vw;
+    margin-right: 27px;
+    margin-top: 3.95vw;
+}
+.table_2 p{
+    width: 36.7vw;
+    font-size: 2.66vw;
+    margin-top: -2.6vw;
+    line-height: 101.38%;
+}
+.table_2 div:first-child{
+    margin-right: 4.86vw;
+}
 }
