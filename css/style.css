@@ -159,6 +159,13 @@ h2{
     justify-content: space-between;
     line-height: 130%;
 }
+.table_1{
+    font-family: 'Roboto', sans-serif;
+    width: 44.3vw;
+    display: flex;
+    justify-content: space-between;
+    line-height: 130%;
+}
 h4{
     font-size: 1.73vw;
     margin: 1vw 0px;
@@ -171,13 +178,18 @@ h4{
 .table div{
     width:10.41vw ;
 }
-.tb2{
+.table_1 p{
+    font-size: 1.25vw;
+    margin-top: 0px;
+    line-height: 130%;
+}
+.table_1{
     width: 69.5vw;
 }
-.tb2 div{
+.table_1 div{
     width: 18.75vw;
 }
-.tb2 h4{
+.table_1 h4{
     color: #1E4681;
 }
 .cto{
@@ -201,7 +213,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     margin-left: -2.56vw;
-    margin-bottom: 6vw;
+    margin-bottom: 5.5vw;
 }
 .images .card_1{
     width: 27.7vw;
@@ -210,7 +222,7 @@ h4{
     font-family: 'Roboto', sans-serif;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     margin-right: 2.56vw;
-    margin-bottom: 2.84vw;
+    margin-bottom: 2.97vw;
 }
 .images img{
     width: 27.7vw;
@@ -285,7 +297,7 @@ h4{
     display: flex;
     flex-direction: column;
     padding-left: 8.47vw;
-    padding-top: 11.73vw;
+    padding-top: 11.79vw;
     box-sizing: border-box;
 }
 .blok_3 h2{
@@ -381,23 +393,176 @@ footer p{
 }
 }
 @media(min-width:834px) and (max-width:1279px){
+    header{
+        margin-top: 22px;
+    }
+    .blok_1{
+        margin-top: 6.2vw;
+    }
     h1{
         margin-top: 1.3vw;
-        margin-bottom: 2.3vw;
-    }
+        margin-bottom: 2.3vw;}
     .text_2{
-        width: 45vw;
-    }
+        width: 45vw;}
     .table{
-        margin-top: 1vw;
-    }
+        margin-top: 1vw;}
     .table h4{
         margin-top: 0px;
-        margin-bottom: 0.5vw;
-    }
+        margin-bottom: 0.5vw;}
     .format{
-        margin-bottom: 8.1vw;
-    }
+        margin-bottom: 8.1vw;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .cto{
         margin-top: 13vw;
     }
@@ -412,7 +577,7 @@ footer p{
         padding-top: 5.5vw;
     }
 }
-@media(min-width:320px) and (max-width:991px){
+@media(min-width:320px) and (max-width:834px){
     .blok_3{
         background-color: #9DC9C8;
         height: 363px;
@@ -530,4 +695,119 @@ footer p{
         margin-top: 85px;
         color: white;
     }
-}
+
+
+
+
+
+
+    .blok_1{
+        margin-left: 36px;
+    }
+    .info{
+        width: 33.6vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info img{
+        width: 1.52vw;
+        margin-right: 0.69vw;
+    }
+    .info span{
+        font-size: 1.38vw;
+        font-family: 'Roboto', sans-serif;
+    }
+        /* h1{
+            font-size: 9.86vw;
+           width: 43.61vw;
+            font-family: 'Roboto Slab', serif;
+            line-height: 101.38%;
+            margin-top: 2.6vw;
+            margin-bottom: 1.2vw;
+        } */
+        .text-img-2{
+            
+        }
+        .table{
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            line-height: 130%;
+            font-size: 10px;
+        }
+        .table p{
+            max-width: 90px;
+            margin-right: 30px ;
+        }
+        .kurs{
+            font-size: 6.93vw;
+            margin-top: 11.4vw;
+            margin-bottom: 1.7vw;
+        }
+        .text_2{
+            /* //width: 45.8vw; */
+            line-height: 150%;
+            font-size: 3.2vw;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 0px;
+            margin-bottom: 2vw;
+        }
+        .img_2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* //margin-right: 8.81vw; */
+        }
+        .img_2 :first-child{
+            width: 39.01vw;
+        }
+        .img_2 :last-child{
+            width:45.48vw;
+            position: relative;
+            bottom: 3.6vw;
+            z-index: -1;
+        }
+        .img_3{
+            display: none;
+        }
+        .table_1{
+            font-family: 'Roboto', sans-serif;
+            line-height: 130%;
+        }
+        h4{
+            font-size: 12px;
+            margin: 1vw 0px;
+        }
+        .table_1 p{
+            font-size: 10px;
+            margin-top: 0px;
+            line-height: 130%;
+        }
+        .table_1 div{
+            max-width: 173px;
+        }
+        .table_1 h4{
+            color: #1E4681;
+        }
+        .cto{
+            /* margin-top: 13.3vw;
+            margin-bottom: 3.6vw; */
+        }
+        .list{
+            font-family: 'Roboto', sans-serif;
+           // width: 47vw;
+            font-size: 12px;
+            line-height: 150%;   
+        }
+        .list ul{
+            padding-left: 1.38vw;
+        }
+        .program{
+            /* margin-top: 15.1vw;
+            margin-bottom: 8.6vw; */
+        }
+        h2{
+            font-size: 26px;
+        }
+
+    }
