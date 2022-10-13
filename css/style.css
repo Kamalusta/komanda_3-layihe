@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@media(min-width:992px){
 body{
     margin: 0px;
 }
@@ -319,7 +320,6 @@ footer{
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
-    
 }
 .container{
     margin: 0vw 12.29vw 0vw 8.47vw;
@@ -373,4 +373,4 @@ footer p{
 .logo{
     margin-bottom: 1.8vw;
 }
-
+}
