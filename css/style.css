@@ -746,7 +746,7 @@ footer p{
             height: 363px;
             display: flex;
             flex-direction: column;
-            padding-left: 14.93vw;
+            padding-left: 8.93vw;
             padding-top: 65px;
             box-sizing: border-box;
             width: 100vw;
@@ -803,7 +803,7 @@ footer p{
             width: 148.33px;
             height: 210.7px;
             margin-top: 25px;
-            margin-left: 14.93vw;
+            margin-left: 9.93vw;
             display: flex;
         }
         .logo .img1{
