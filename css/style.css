@@ -447,6 +447,12 @@ footer p{
             margin: 0;
             padding: 0;
         }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            width: 540px;
+        }
         header img{
             width: 52.19px;
             height: 30.75px;
@@ -454,7 +460,8 @@ footer p{
             margin-top: 36px;
         }    
         .blok_1{
-            margin-left:  9.6vw;;
+            margin-left:  9.6vw;
+
         }
         .info{
             display: flex;
