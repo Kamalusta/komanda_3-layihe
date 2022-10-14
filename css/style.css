@@ -35,10 +35,6 @@ h1{
     margin-top: 2.6vw;
     margin-bottom: 1.2vw;
 }
-h2{
-    font-size: 3.81vw;
-    font-family: 'Roboto Slab', serif;
-}
 .text_1 p{
     font-size: 1.38vw;
     font-family: 'Roboto', sans-serif;
@@ -93,6 +89,10 @@ h2{
     font-size: 1.38vw;
     text-align: right;
     margin: 0px;
+}
+h2{
+    font-size: 3.81vw;
+    font-family: 'Roboto Slab', serif;
 }
 .img_2{
     display: flex;
@@ -414,20 +414,32 @@ footer p{
         margin-bottom: 0.5vw;
     }
     .format{
-        margin-bottom: 8.1vw;
+        margin-bottom: 7.2vw;
     }
     .cto{
         margin-top: 13vw;
     }
     .images{
-        margin-bottom: 4vw;
+        margin-bottom: 3.5vw;
     }
     .card p{
-        padding: 2.77vw 5vw 0.69vw 3.3vw;
+        padding: 2.77vw 5vw 0.3vw 3.3vw;
         font-size: 1.43vw;
     }
     .blok_2{
         padding-top: 5.5vw;
+    }
+    .blue-fon :first-child{
+        margin-bottom: 0px;
+    }
+    .img-table{
+        margin-top: 1.2vw;
+    }
+    .table_1 h4{
+        margin-bottom: 0.5vw;
+    }
+    .blok_3{
+        padding-top: 11.6vw;
     }
     }
 
@@ -475,13 +487,13 @@ footer p{
             max-width: 237.18px;
             /* width: 33.6vw; */
             max-height: 14.91px;
-            margin-left: 30px;
+            /* margin-left: 30px; */
             margin-top: 35.35px;
         }
         .info img{
             width: 10.25px;
             /* height: 10.25px; */
-            margin-left: 4.5px;
+            /* margin-left: 4.5px; */
             /* width: 1.52vw;
             margin-right: 0.69vw; */
         }
@@ -495,57 +507,57 @@ footer p{
         }
         .text_1 h1{
             width: 292.63px;
-            height: 88.53px;
-            margin-left: 35.47px;
+            /* height: 88.53px;
+            margin-left: 35.47px; */
             font-family: 'Roboto Slab';
-            font-weight: 700;
+            /* font-weight: 700; */
             font-size: 37px;
             line-height: 101.38%;
             margin-top: 14px;
+            margin-bottom: 17px;
         }
         .text_1 p{
             max-width: 212.4px;
             max-height: 28.96px;
-            margin-left: 35.74px;
+            /* margin-left: 35.74px; */
             font-family: 'Roboto';
-            font-weight: 400;
+            /* font-weight: 400; */
             font-size: 10px;
             line-height: 150%;
-            margin-top: -29px;
+            /* margin-top: -29px; */
             margin-bottom: 0;
         }
         .img_1{
-            max-width: 141.68px;
-            max-height: 175.1px;
-            margin-left: 201px;
+            max-width: 141.66px;
+            /* max-height: 165.89px; */
+            margin-left: 165px;
             display: flex;
-            align-items: center;
             flex-direction: column;
+            align-items: flex-end;
         }
         .img_1 img:first-child{
             max-width: 141.66px;
-            max-height: 165.89px;
+            /* max-height: 165.89px; */
         }
         .img_1 img:last-child{
             max-width: 127.68px;
-            max-height: 19.1px;
-            bottom: 10px;
-            left: 5px;
+            /* max-height: 19.1px; */
             position: relative;
             z-index: -1;
+            bottom: 10px;
         }
         .blue-fon{
             max-width: 200.36px;
-            max-height: 83.19px;
-            margin-left: 37.98px;
+            /* max-height: 83.19px; */
+            margin-left: 1.98px;
             background-color: #1E4681;
             border-radius: 2.33px;
             color: white;
-            margin-top: 38px;
+            margin-top: 27px;
             padding-top: 0.1px;
             padding-left: 12.02px;
             padding-right: 12.34px;
-            padding-bottom: 10.94px;
+            padding-bottom: 2px;
         }
         .blue-fon p:first-child{
             font-family: 'Roboto Slab';
@@ -566,9 +578,10 @@ footer p{
             margin-right: -5px;
         }  
         .kurs{
-            font-size: 6.93vw;
-            margin-top: 11.4vw;
-            margin-bottom: 1.7vw;
+            /* margin-top: 11.4vw; */
+            margin-top: 70px;
+            /* margin-bottom: 1.7vw; */
+            margin-bottom: 22px;
         }
         .text_2{
             /* //width: 45.8vw; */
@@ -577,12 +590,14 @@ footer p{
             font-family: 'Roboto', sans-serif;
             margin-top: 0px;
             margin-bottom: 2vw;
+            margin-right: 30px;
         }
         .img_2{
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* //margin-right: 8.81vw; */
+            margin-right: 36px;
+            margin-bottom: 32px;
         }
         .img_2 :first-child{
             width: 39.01vw;
@@ -606,9 +621,16 @@ footer p{
         .table p{
             max-width: 90px;
             margin-right: 30px ;
+            margin-top: 0px;
+            margin-bottom: 24px;
         }
         h2{
             font-size: 26px;
+            font-family: 'Roboto Slab';
+        }
+        .format{
+            margin-top: 40px;
+            margin-bottom: 28px;
         }
         .table_1{
             font-family: 'Roboto', sans-serif;
@@ -621,6 +643,7 @@ footer p{
         .table_1 p{
             font-size: 10px;
             margin-top: 0px;
+            margin-bottom: 30px;
             line-height: 130%;
         }
         .table_1 div{
@@ -628,32 +651,42 @@ footer p{
         }
         .table_1 h4{
             color: #1E4681;
+            margin-bottom: 0px;
+        }
+        .cto{
+            margin-top: 74px;
         }
         .list{
             font-family: 'Roboto', sans-serif;
             font-size: 12px;
-            line-height: 150%;   
+            line-height: 150%; 
+            margin-right: 32px;  
         }
         .list ul{
-            padding-left: 1.38vw;
+            padding-left: 13px;
+        }
+        .program{
+            margin-top: 57px;
+            margin-bottom: 49px;
         }
         .images{
             display: flex;
             flex-direction: column;
             margin-bottom: 6.12vw;
             align-items: center;
+            margin-left: -25px;
         }
         .images .card_1{
-            width: 49.5vw;
-            height: 40.65vw;
-            border-radius: 3.72vw;
+            width: 185.92px;
+            height: 152.84px;
+            border-radius: 13.98px;
             font-family: 'Roboto', sans-serif;
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
             margin-right: 2.56vw;
             margin-bottom: 6.425vw;
         }
         .images img{
-            width: 49.5vw;
+            width: 185.92px;
         }
         .card-text{
             height: 20.82vw;
@@ -664,7 +697,8 @@ footer p{
         .images h3{
             font-size: 3.72vw;
             margin-left: 2.48vw;
-            margin-top:0vw;
+            margin-top:4px;
+            line-height: 97%;
         }
         .images p{
             font-size: 3.19vw;
@@ -685,6 +719,7 @@ footer p{
             font-family: 'Roboto Slab';
             line-height: 101.38%;
             margin-top: 2.3vw;
+            max-width: 257px;
         }
         .card{
             background-color:  #FFFFFF;
@@ -724,7 +759,7 @@ footer p{
             display: flex;
             flex-direction: column;
             padding-left: 34.85px;
-            padding-top: 62px;
+            padding-top: 65px;
             box-sizing: border-box;
         }
         .blok_3 h2{
@@ -745,7 +780,7 @@ footer p{
         }
         .blok_3 p:nth-child(3){
             font-weight: 400;
-            margin-top: 0px;
+            margin-top: 2px;
             font-size: 37px;
             line-height: 101.38%;
         }
@@ -763,6 +798,7 @@ footer p{
             width: 138px;
             font-size: 10px ;
             line-height: 101.38%;
+            margin-top: 5px;
         }
         .table_2 div:first-child{
             margin-right: 31px;
@@ -776,8 +812,8 @@ footer p{
         footer .container{
             width: 148.33px;
             height: 210.7px;
-            margin-top: 23.3px;
-            margin-left: 38.85px;
+            margin-top: 25px;
+            margin-left: 38px;
             display: flex;
         }
         .logo .img1{
@@ -785,7 +821,7 @@ footer p{
             height: 31.69px;
             left: 37.85px;
             top: 23.3px;
-            margin-bottom: 13.98px;
+            margin-bottom: 10px;
         }
         .icons{
             justify-content: space-between;
@@ -798,6 +834,7 @@ footer p{
         .icons img{
             height: 15.38px !important;
             width: 15.38px !important;
+            margin-right: 5px;
         }
         .right {
             width: 148.18px;
@@ -809,12 +846,12 @@ footer p{
             color: white;
         }
         .right img:first-child{
-            margin-right: 9px;
+            margin-right: 6px;
             width: 12.58px;
             height: 12.58px;
         }
         .right img:nth-child(4){
-            margin-right: 9px;
+            margin-right: 6px;
             width: 14px;
             height: 10px;
         }
@@ -832,7 +869,7 @@ footer p{
             width: 125px;
             height: 12px;
             margin-bottom: 17px;
-            margin-top: 85px;
+            margin-top: 90px;
             color: white;
         }      
     
