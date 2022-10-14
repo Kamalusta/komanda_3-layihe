@@ -584,28 +584,29 @@ footer p{
             margin-bottom: 22px;
         }
         .text_2{
-            /* //width: 45.8vw; */
+            width: 308.47px;
             line-height: 150%;
-            font-size: 3.2vw;
+            font-size: 12px;
             font-family: 'Roboto', sans-serif;
             margin-top: 0px;
-            margin-bottom: 2vw;
+            margin-bottom: 12px;
             margin-right: 30px;
         }
         .img_2{
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             margin-right: 36px;
             margin-bottom: 32px;
+            margin-left: 77.12px;
         }
         .img_2 :first-child{
-            width: 39.01vw;
+            width: 146.32px;
         }
         .img_2 :last-child{
-            width:45.48vw;
+            width:170.55px;
             position: relative;
-            bottom: 3.6vw;
+            bottom: 13.5;
             z-index: -1;
         }
         .img_3{
@@ -617,6 +618,7 @@ footer p{
             flex-wrap: wrap;
             line-height: 130%;
             font-size: 10px;
+            max-width: 270px;
         }
         .table p{
             max-width: 90px;
@@ -664,6 +666,7 @@ footer p{
         }
         .list ul{
             padding-left: 13px;
+            max-width: 300px;
         }
         .program{
             margin-top: 57px;
@@ -672,9 +675,9 @@ footer p{
         .images{
             display: flex;
             flex-direction: column;
-            margin-bottom: 6.12vw;
-            align-items: center;
-            margin-left: -25px;
+            margin-bottom: 23px;
+            align-items: flex-start;
+            margin-left: 59px;
         }
         .images .card_1{
             width: 185.92px;
@@ -682,76 +685,76 @@ footer p{
             border-radius: 13.98px;
             font-family: 'Roboto', sans-serif;
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
-            margin-right: 2.56vw;
-            margin-bottom: 6.425vw;
+            margin-right: 9.6px;
+            margin-bottom: 24px;
         }
         .images img{
             width: 185.92px;
         }
         .card-text{
-            height: 20.82vw;
+            height: 78px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
         .images h3{
-            font-size: 3.72vw;
-            margin-left: 2.48vw;
+            font-size: 14px;
+            margin-left: 9.3px;
             margin-top:4px;
             line-height: 97%;
         }
         .images p{
-            font-size: 3.19vw;
-            margin-left: 2.35vw;
+            font-size: 12px;
+            margin-left: 8.8px;
             margin-top: -30px;
             line-height: 130%;
         }
         .blok_2{
             background-color:  #EFEFEF;
-            height: 112.5vw;
-            padding: 9.31vw;
+            height: 421.87px;
+            padding: 34.91px;
             box-sizing: border-box;
-            width: 100vw;
+            width: 375px;
         }
         .blok_2 h2{
-            margin-bottom: 5vw;
-            font-size:6.91vw ;
+            margin-bottom: 18.75px;
+            font-size:26px ;
             font-family: 'Roboto Slab';
             line-height: 101.38%;
-            margin-top: 2.3vw;
+            margin-top: 8.62px;
             max-width: 257px;
         }
         .card{
             background-color:  #FFFFFF;
-            width: 81.91vw;
-            height: 65.96vw;
+            width: 307.16px;
+            height: 24.73px;
             /* margin-left: 8.75vw; */
             box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
-            border-radius: 3.72vw;
-            margin-top: 7vw;
+            border-radius: 14px;
+            margin-top: 26.25px;
         }
         .card p{
-            padding: 4.79vw 5.59vw 0.69vw;
+            padding: 18.63px 21px 2.58px;
             line-height: 150%;
-            font-size: 2.66vw;
+            font-size: 10px;
             font-family: 'Roboto', sans-serif;
         }
         .photo{
             display: flex;
         }
         .photo img:first-child{
-            width: 25vw;
-            margin-left: 4.1vw;
-            margin-right: 1.5vw;
+            width: 93.75px;
+            margin-left: 15.37px;
+            margin-right: 5.62px;
         }
         .blok_2 h3{
-           font-size: 3.72vw;
+           font-size: 14px;
            font-family: 'Roboto Slab', serif;
         }
         .photo img:last-child{
-            width: 4.33vw;
-            height: 4.68vw;
-            margin-top: 1vw;
+            width: 16.23px;
+            height: 17.55px;
+            margin-top: 3.75px;
         }
         .blok_3{
             background-color: #9DC9C8;
