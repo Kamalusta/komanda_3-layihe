@@ -447,12 +447,12 @@ footer p{
             margin: 0;
             padding: 0;
         }
-        main{
+        /* main{
             display: flex;
             flex-direction: column;
             align-content: center;
             width: 833px;
-        }
+        } */
         header img{
             width: 52.19px;
             height: 30.75px;
