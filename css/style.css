@@ -279,8 +279,8 @@ h4{
 }
 .blok_2 h3{
     font-size: 2.08vw;
-   font-family: 'Roboto Slab', serif;
-   margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
 }
 .photo img:first-child{
     width: 13.19vw;
@@ -447,12 +447,6 @@ footer p{
             margin: 0;
             padding: 0;
         }
-        /* main{
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            width: 833px;
-        } */
         header img{
             width: 52.19px;
             height: 30.75px;
@@ -461,7 +455,6 @@ footer p{
         }    
         .blok_1{
             margin-left:  9.6vw;
-
         }
         .info{
             display: flex;
@@ -493,7 +486,6 @@ footer p{
             /* height: 88.53px;
             margin-left: 35.47px; */
             font-family: 'Roboto Slab';
-            /* font-weight: 700; */
             font-size: 37px;
             line-height: 101.38%;
             margin-top: 14px;
@@ -504,7 +496,6 @@ footer p{
             max-height: 28.96px;
             /* margin-left: 35.74px; */
             font-family: 'Roboto';
-            /* font-weight: 400; */
             font-size: 10px;
             line-height: 150%;
             /* margin-top: -29px; */
@@ -578,7 +569,6 @@ footer p{
         .img_2{
             display: flex;
             flex-direction: column;
-            
             margin-right: 36px;
             margin-bottom: 32px;
             margin-left: 77.12px;
@@ -699,7 +689,6 @@ footer p{
             padding: 34.91px 9.36vw;
             box-sizing: border-box;
             width: 100vw;
-            
         }
         .blok_2 h2{
             margin-bottom: 18.75px;
@@ -861,73 +850,5 @@ footer p{
             margin-bottom: 17px;
             margin-top: 90px;
             color: white;
-        }      
-    
-    
-
-
-    
-  
-
-
-
-
-
-    
-    
-/* .blok_3{
-    background-color: #9DC9C8;
-    height: 96.66vw;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8.47vw;
-    padding-top: 16.5vw;
-    box-sizing: border-box;
-}
-.blok_3 h2{
-    margin-top: 0px;
-    margin-bottom: 9vw;
-    font-family: 'Roboto Slab';
-    font-size: 6.91vw;
-    width: 59.57vw;
-    line-height: 101.38%;
-}
-.blok_3 p,.table_2,span{
-    font-family: 'Roboto', sans-serif;
-}
-.blok_3 span{
-    font-size: 3.19vw;
-    margin-top: -0.6vw;
-}
-.blok_3 p:nth-child(3){
-    font-size: 9.84vw;
-    margin-top: 0.11vw;
-    margin-bottom: 5vw;
-    line-height: 101.38%;
-}
-.table_2{
-    display: flex;
-}
-.table_2 h4{
-    width: 33vw;
-    font-weight: 400;
-    font-size: 3.19vw;
-    margin-right: 27px;
-    margin-top: 3.95vw;
-}
-.table_2 p{
-    width: 36.7vw;
-    font-size: 2.66vw;
-    margin-top: -2.6vw;
-    line-height: 101.38%;
-}
-.table_2 div:first-child{
-    margin-right: 4.86vw;
-} */
-
-
-
-
-
+        }
 }
